@@ -1,5 +1,4 @@
 # Checkout.com Integration with Frames - Part 2
-# Checkout.com Integration with Frames - Part 2
 
 A simple integration project demonstrating Checkout.com's Frames for secure card payments.
 
@@ -19,6 +18,12 @@ npm install
 Set up your keys:
 Create a .env file in the project root.
 
+Set up your environment variables
+Create a .env file in the project root with your Checkout.com keys:
+
+SECRET_KEY=your_secret_key_here
+PROCESSING_CHANNEL_ID=your_channel_id_here
+
 Add your Checkout.com keys (e.g., SECRET_KEY, PROCESSING_CHANNEL_ID).
 
 Example .env:
@@ -29,6 +34,7 @@ PROCESSING_CHANNEL_ID=your_channel_id_here
 Run the server:
 bash
 
+## Run the server:
 node server.js
 
 The server will run at http://localhost:3000.
@@ -43,8 +49,7 @@ Refer to the Checkout.com Documentation for official integration guidelines.
 We are not responsible for any issues arising from your integration or use of this code.
 
 ##  Author
-LinkedIn: Hamud
-
+LinkedIn: [/IamHamud](https://www.linkedin.com/in/iamhamud/)
 GitHub: IamHamud
 
-# Checkout-Integration-Part-2
+
